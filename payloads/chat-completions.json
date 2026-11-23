@@ -1,0 +1,14 @@
+{
+  "model": "gemini-4-neon",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a senior backend engineer. Be precise and explain each change."
+    },
+    {
+      "role": "user",
+      "content": "Refactor this Node.js function so it handles errors, retries 429 and 5xx responses up to 3 times with exponential backoff, and times out after 30 seconds:\n\nasync function getUser(id) {\n  const res = await fetch(`https://example.com/users/${id}`);\n  return res.json();\n}"
+    }
+  ],
+  "max_tokens": 2048
+}

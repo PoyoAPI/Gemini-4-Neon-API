@@ -1,0 +1,18 @@
+{
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "A service writes events to Kafka and a consumer applies them to Postgres. After a consumer restart some events are applied twice. Find the likely causes, then design an exactly-once-effect pipeline and explain how to test it."
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "maxOutputTokens": 8192,
+    "thinkingConfig": {
+      "thinkingLevel": "xhigh"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Plan a step-by-step migration of a 200-file JavaScript codebase to TypeScript. List the phases, the risks in each phase, and how to verify each phase before moving on."
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "maxOutputTokens": 4096,
+    "temperature": 0.7
+  }
+}

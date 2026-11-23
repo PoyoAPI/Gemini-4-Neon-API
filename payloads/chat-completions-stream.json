@@ -1,0 +1,11 @@
+{
+  "model": "gemini-4-neon",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain the difference between optimistic and pessimistic locking in three sentences."
+    }
+  ],
+  "max_tokens": 1024,
+  "stream": true
+}

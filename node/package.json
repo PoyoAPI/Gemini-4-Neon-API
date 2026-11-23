@@ -1,0 +1,8 @@
+{
+  "name": "poyo-gemini-4-neon-api-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}
